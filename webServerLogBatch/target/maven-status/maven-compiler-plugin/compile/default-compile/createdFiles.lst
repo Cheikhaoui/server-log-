@@ -1,0 +1,11 @@
+batchPackage\MobileBachelet.class
+batchPackage\MyCheckPoint.class
+batchPackage\LogLineReader.class
+logLine\LogLineFiltred.class
+logLine\LogLine.class
+batchPackage\LogLineProcessor.class
+LoggingProducer.class
+batchPackage\LogFilteredLineWriter.class
+myBeans\MyBean.class
+batchPackage\InfoJobListener.class
+batchPackage\InfoItemProcessListeners.class

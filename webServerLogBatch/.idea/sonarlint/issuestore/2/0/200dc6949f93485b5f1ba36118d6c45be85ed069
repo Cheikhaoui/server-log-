@@ -1,0 +1,4 @@
+
+Ysquid:UselessImportCheck"0Remove this unused import 'javax.inject.Inject'.(ì–íÔ8î©†©.
+usquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ñû»ıÿÿÿÿÿ
+Psquid:EmptyStatementUsageCheck"Remove this empty statement.(ø“ù¿ÿÿÿÿÿ8’¤„†©.

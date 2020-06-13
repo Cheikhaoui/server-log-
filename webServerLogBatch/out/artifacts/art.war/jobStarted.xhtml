@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:fn="http://xmlns.jcp.org/jsp/jstl/functions"
+      xmlns:h="http://java.sun.com/jsf/html">
+<head>
+    <title>job start ? </title>
+</head>
+<body>
+<p:outputLabel value="current state :#{myBean.getStatus()}"/><br/>
+<h:outputLabel value="#{fn:replace(myBean.showResult(),'\\n','&lt;br/&gt;')}" escape="false"/>
+<h:form>
+    <p:commandButton value="refresh" action="jobStarted" rendered="#{!myBean.isCompleted()}"/>
+</h:form>
+</body>
+</html>

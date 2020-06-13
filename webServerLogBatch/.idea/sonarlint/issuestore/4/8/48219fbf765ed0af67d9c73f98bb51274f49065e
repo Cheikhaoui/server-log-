@@ -1,0 +1,7 @@
+
+osquid:UselessImportCheck"ARemove this unused import 'javax.batch.api.listener.JobListener'.(²Î¼¶şÿÿÿÿ8…ÅÒ‚©.
+squid:S3457"oLooks like there is a confusion with the use of java.text.MessageFormat, parameters will be simply ignored here(§¨¨òûÿÿÿÿ8œÒñïª.
+usquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ñû»ıÿÿÿÿÿ
+Ysquid:UselessImportCheck"0Remove this unused import 'javax.inject.Inject'.(ì–íÔ8¦…†©.
+Esquid:S2629"$Invoke method(s) only conditionally.(§¨¨òûÿÿÿÿ8œÒñïª.
+asquid:UselessImportCheck"3Remove this unused import 'logLine.LogLineFiltred'.(—ÃÂºøÿÿÿÿ8Ú¹óïª.
